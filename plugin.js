@@ -1,4 +1,6 @@
 (function() {
+    /* jshint scripturl:true */
+
     'use strict';
 
     CKEDITOR.plugins.add('exbutton', {
