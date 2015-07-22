@@ -19,6 +19,10 @@
                 return CKEDITOR.document.getById(this._.id + '_label');
             };
 
+            buttonProto.getElementIcon = function() {
+                return CKEDITOR.document.getById(this._.id + '_icon');
+            };
+
             buttonProto.setTitle = function(title) {
                 title = String(title);
 
